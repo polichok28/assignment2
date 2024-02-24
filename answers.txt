@@ -1,0 +1,48 @@
+Tutorials: 02/23/24
+Account 02/19/24
+
+$ git commit -m "Added status.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Pol@DESKTOP-M0557I7.(none)')
+
+Pol@DESKTOP-M0557I7 MINGW64 ~/assignment2/docs (master)
+$ git push
+fatal: A task was canceled.
+
+2. 6 - git rev-list --count HEAD
+
+3. git log -1 --format="%cd" -- README.md
+Wed Sep 25 18:33:08 2019 -0400
+
+4. Parallel develop,ent of multiple developers working on the same project and isolation of their work from one another
+
+5. git log displays list of commits while status displays current state of directory
+
+6. git log --name-only --oneline -- Vehicle.h
+
+7. git log --grep="file"
+
+8. A class or subclass inherits properties and behavior defined in another class
+   Ability of objects to take on multiple forms or behaviors is Polymorphism.
+   Bundling of data and methods that operate on the data into a signle class.
+
+9. While in the "Dictator and Lieutenants" workflow, only the dictator has push access to the central repository and merges changes from lieutenant repositories, in the "Integration manager" workflow, multiple developers can push changes to the central repository, with >
+
+10. by maintaining better control and organization over the integration process, allowing for more efficient conflict resolution and coordination, compared to the potential chaos and bottleneck risks associated with a purely centralized workflow.
+
+
+
+
+
+
